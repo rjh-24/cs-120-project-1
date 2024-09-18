@@ -10,6 +10,10 @@
     td {
       text-align: center;
     }
+
+    img {
+      float: left;
+    }
   </style>
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +24,10 @@
     <title>About Me</title>
   </head>
   <body>
+    <!-- Name header -->
     <h1>Richard Hong</h1>
+
+    <!-- Recent trip -->
     <p>
       I visited Korea and Japan with my mom and brother in 2019. We were able to
       see how Korea has changed in the years since my mom last visited as well
@@ -30,11 +37,15 @@
       cousin, his wife, and his three-year-old son. Overall it was a pleasant
       trip despite the potential monsoon in the region at the time.
     </p>
+
+    <!-- Bulleted list of pets -->
     <ul>
       <li>A cat named Tabula</li>
       <li>A pufferfish named Sherlock</li>
       <li>An eel named Waldo</li>
     </ul>
+
+    <!-- Favorite restaurant -->
     <p>
       One of my favorite restaurants in my hometown of Houston, Texas is
       <a
@@ -47,20 +58,27 @@
       and the staff seem genuinely interested in delivering a quality experience
       for families dining out.
     </p>
-    <img
-      src="assets/hwe-dup-bap.jpg"
-      style="height: 500px; float: left; margin: 5px"
-    />
-    <p>
-      One of my favorite food dishes is a Korean dish called 회덮밥 or romanized
-      as hwe-dup-bap. This dish is a raw fish dish with rice and vegetables,
-      with strong similarities to the Japanese chirashi-don; however this Korean
-      dish uses gochujang, an essential mother sauce made from fermented red
-      chillies. Given that one of the key ingredients is raw fish which is
-      served cold as well as there is no need for heat preparation, this is
-      associated as a summer dish.
-    </p>
+
+    <!-- Favorite food image and description -->
+    <div style="display: flex; align-items: center">
+      <img
+        src="assets/hwe-dup-bap.jpg"
+        style="height: 500px; margin-right: 5px"
+      />
+      <p>
+        One of my favorite food dishes is a Korean dish called 회덮밥 or
+        romanized as hwe-dup-bap. This dish is a raw fish dish with rice and
+        vegetables, with strong similarities to the Japanese chirashi-don;
+        however this Korean dish uses gochujang, an essential mother sauce made
+        from fermented red chillies. Given that one of the key ingredients is
+        raw fish which is served cold as well as there is no need for heat
+        preparation, this is associated as a summer dish.
+      </p>
+    </div>
+
     <br clear="all" />
+
+    <!-- Table of favorite books -->
     <table>
       <tr>
         <th>Book</th>
