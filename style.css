@@ -42,7 +42,7 @@ ul {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url("/assets/hwe-dup-bap.jpg");
+  background-image: url("./assets/hwe-dup-bap.jpg");
   background-size: cover;
   width: 500px;
   height: 500px;
