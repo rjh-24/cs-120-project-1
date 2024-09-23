@@ -53,15 +53,10 @@ ul {
   word-wrap: break-word;
 }
 
-.book-table-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 table {
   max-width: 2000px;
   width: 80%;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
