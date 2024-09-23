@@ -32,10 +32,10 @@ ul {
 }
 
 .favorite-food-container {
-  position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  align-items: center;
+  margin: 120px 0;
 }
 
 .food-image-div {
@@ -46,19 +46,18 @@ ul {
   background-size: cover;
   width: 500px;
   height: 500px;
-  text-align: center;
-  margin-right: 20px;
 }
 
 .food-text-div {
-  margin-left: 800px;
-  max-width: 200px;
+  margin-left: 850px;
+  max-width: 250px;
   word-wrap: break-word;
 }
 
 table {
   width: 100%;
   padding: 0 100px;
+  margin-bottom: 30px;
 }
 
 th,
