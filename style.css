@@ -53,9 +53,15 @@ ul {
   word-wrap: break-word;
 }
 
+.book-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 table {
-  width: 100%;
-  padding: 0 100px;
+  max-width: 2000px;
+  width: 80%;
   margin-bottom: 30px;
 }
 
