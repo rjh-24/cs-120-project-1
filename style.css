@@ -105,6 +105,7 @@ td {
 }
 
 tr:nth-child(even) {
+  color: var(--stone-300);
   background-color: var(--stone-500);
 }
 
