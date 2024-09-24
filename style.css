@@ -29,6 +29,15 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.nav-links-container ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links-container li {
+  padding: 10px;
+}
+
 .social-icons-container {
   position: absolute;
   top: 100px;
@@ -60,7 +69,7 @@ h2 {
   text-align: center;
 }
 
-ul {
+.list-container-wrapper ul {
   list-style-type: none;
   padding: 20px;
   border: 2px solid var(--stone-800);
