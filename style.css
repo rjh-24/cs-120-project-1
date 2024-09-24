@@ -26,6 +26,7 @@ body {
   height: 150px;
   inset: 0;
   z-index: 3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .social-icons-container {
@@ -37,6 +38,11 @@ body {
 .social-icons {
   display: flex;
   gap: 20px;
+  color: var(--stone-950);
+}
+
+.social-icons > .fa-brands:hover {
+  color: var(--stone-600);
 }
 
 .content {
