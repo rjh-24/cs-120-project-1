@@ -157,6 +157,7 @@ select {
 .html-link:visited {
   text-decoration: none;
   color: var(--stone-700);
+  transition: 0.3s;
 }
 
 .html-link:hover,
