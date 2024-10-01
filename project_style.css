@@ -52,7 +52,7 @@ body {
 }
 
 .content {
-  padding-top: 125px;
+  padding-top: 150px;
 }
 
 ol,
@@ -80,6 +80,8 @@ li {
   opacity: 0;
   display: flex;
   flex-direction: column;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
 }
 
 .slide > img {
@@ -89,13 +91,14 @@ li {
   object-fit: cover;
   object-position: center;
   position: absolute;
-  /* padding: 500px 250px; */
   top: 5%;
   left: 25%;
 }
 
 .slide[data-active] {
   opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
 }
 
 .carousel-button {
