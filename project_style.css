@@ -52,6 +52,10 @@ body {
   padding: 20px;
 }
 
+.home-link {
+  text-decoration: none;
+}
+
 ol,
 li {
   list-style: none;
@@ -59,7 +63,8 @@ li {
   padding: 0;
 }
 
-.carousel {
+.carousel,
+.about-us {
   width: 100vw;
   height: 50vw;
   position: relative;
@@ -125,4 +130,12 @@ li {
 }
 .carousel-button.next {
   right: 1rem;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 175px;
 }
