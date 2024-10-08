@@ -236,3 +236,30 @@ li {
 .submit-btn:hover {
   background-color: var(--stone-200);
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .navbar-header-container {
+    position: relative;
+    left: 0;
+    font-size: 24px;
+  }
+
+  .carousel {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-header-container {
+    font-size: 18px;
+  }
+
+  .text-section {
+    text-align: center;
+  }
+}
