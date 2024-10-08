@@ -31,7 +31,7 @@
       src="script.js"
       defer
     ></script>
-    <title>About Us</title>
+    <title>Contact Page</title>
   </head>
   <body>
     <div class="navbar">
@@ -77,40 +77,62 @@
       </div>
     </div>
     <div class="content">
-      <section aria-label="About Us Paragraph">
-        <div class="about-us">
-          <div class="text-section">
-            <h2>About Us</h2>
+      <section aria-label="Tour Dates Table">
+        <div class="contact-section">
+          <div class="contact-form-container">
+            <h1>Contact Us</h1>
             <p>
-              Welcome to <span style="font-weight: bold">Days of Yore</span>,
-              where nostagia meets electrifying performances! We are a cover
-              band dedicated to bringing back timeless hits that defined
-              generations with an infusion of modern techniques.
-              <br />
-              Our members include:
+              If you’d like to book us or have any questions, please fill out
+              the form below!
             </p>
-            <ul>
-              <li>
-                <span style="font-weight: bold"> Ella James</span>, whose
-                powerful voice and captivating stage presence makes every song
-                come alive
-              </li>
-              <li>
-                <span style="font-weight: bold">Mark Rivers</span>, guitarist
-                with sweet technique and intricate riffs
-              </li>
-              <li>
-                <span style="font-weight: bold">Sammy Keys</span> on drums with
-                rhythmic beats that keep the band forward and infectious energy
-              </li>
-            </ul>
-            <br />
-            <p style="align-self: center">
-              Together, we celebrate the music that shaped our lives, from
-              classic rock anthems to soul-stirring ballads. Join us as we take
-              you on a journey through the
-              <span style="font-weight: bold">Days of Yore</span>!
-            </p>
+            <form
+              action="#"
+              method="post"
+              class="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="submit-btn"
+              >
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
       </section>
